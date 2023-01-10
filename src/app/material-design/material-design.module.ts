@@ -6,6 +6,9 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatCardModule } from '@angular/material/card';
 import { MatToolbarModule } from "@angular/material/toolbar";
+import { MatFormFieldModule } from "@angular/material/form-field";
+import {MatDividerModule} from "@angular/material/divider";
+import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
 
 @NgModule({
   declarations: [],
@@ -19,6 +22,10 @@ import { MatToolbarModule } from "@angular/material/toolbar";
     MatRadioModule,
     MatCardModule,
     MatToolbarModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatDividerModule,
+    MatProgressSpinnerModule,
   ]
 })
 export class MaterialDesignModule { }
